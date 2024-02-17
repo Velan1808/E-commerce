@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#Navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 5rem;
+    z-index: 100;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f700  !important;
+}
+#navbarSupportedContent{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700;
+    transition: 0.2s;
+}
+
+#navbarSupportedContent button{
+    background-color: #29f700;
+    width: 5rem;
+    border-radius: 16px;
+    color: black;
+
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home{
+   background:url(./images/home3.jpeg);
+   background-size: cover;
+   background-position: center;
+   z-index: 1;
+
+}
+
+#home h1{
+    font-size: 100px;
+    color:rgb(10, 10, 10);
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px rgb(144, 142, 142),
+                 0px 2px 0px rgb(144, 142, 142),
+                 0px 3px 0px rgb(144, 142, 142),
+                 0px 4px 0px rgb(144, 142, 142),
+                 0px 5px 0px rgb(144, 142, 142),
+                 0px 6px 0px rgb(144, 142, 142),
+                 0px 7px 0px rgb(144, 142, 142);
+    z-index: 5;             
+
+}
+#home p{
+    font-size: 18px;
+    color: rgb(9, 9, 9);
+    z-index: 4;
+}
+
+#home .input-group{
+   width: 40%;
+   height: 45px;
+   z-index: 5;
+}
+
+.signin{
+    background-color: #29f700 !important;
+    color: white;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+    z-index: 5;
+}
+#home button{
+    margin-left: 3px;
+}
+#home button:hover{
+    box-shadow: 2px 4px 46px rgb(90, 249, 98),
+                    inset 4px 4px 10px #ccf2c5;
+}
+
+
+/*****About*****/
+
+#about{
+    background:linear-gradient(white,gray,white);
+}
+
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: black;
+    text-shadow: 0px 1px 0px rgb(144, 142, 142),
+    0px 2px 0px rgb(144, 142, 142),
+    0px 3px 0px rgb(144, 142, 142),
+    0px 4px 0px rgb(144, 142, 142),
+    0px 5px 0px rgb(144, 142, 142),
+    0px 6px 0px rgb(144, 142, 142);
+}
+
+#about p{
+    color: rgb(31, 29, 29);
+}
+#about img{
+    justify-content: center;
+    align-items: center;
+}
+
+/*****Products*****/
+
+#products
+{
+    background:linear-gradient(white,gray,white);
+}
+  #products h1{
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-shadow: 0px 1px 0px rgb(144, 142, 142),
+        0px 2px 0px rgb(144, 142, 142),
+        0px 3px 0px rgb(144, 142, 142),
+        0px 4px 0px rgb(144, 142, 142),
+        0px 5px 0px rgb(144, 142, 142),
+        0px 6px 0px rgb(144, 142, 142);
+    }
+    #products img{
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
+    }    
+    .card{
+        width: 250px;
+        height: 300px;
+        background-color: #40ec1d !important;
+        border: none;
+        box-shadow: 12px 14px 16px rgb(60, 60, 60),
+                    inset 4px 4px 10px #29f700;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 60px;
+        border-radius: 30px !important;
+
+    }
+    .card:hover{
+        cursor: pointer;
+    }
+
+
+/*****Contact*****/
+
+#contact{
+    background: linear-gradient(white,gray,white);
+}
+#contact img{
+    height: 100%;
+}
+.box{
+    width: 80% !important;
+    background: linear-gradient(lightgray,gray);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+#contact h1{
+text-shadow: 0px 1px 0px rgb(144, 142, 142),
+0px 2px 0px rgb(144, 142, 142),
+0px 3px 0px rgb(144, 142, 142),
+0px 4px 0px rgb(144, 142, 142),
+0px 5px 0px rgb(144, 142, 142),
+0px 6px 0px rgb(144, 142, 142);
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: black;
+    margin: -30px;
+    text-align: center;
+    color: white;
+    padding: 4px;
+}
